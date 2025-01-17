@@ -1759,7 +1759,7 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2013/12/24/link-post/</guid>
-            <title>Link Post</title>
+            <title>文章列表</title>
             <link>http://example.com/2013/12/24/link-post/</link>
             <pubDate>Tue, 24 Dec 2013 23:30:04 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;This is a link post. Clicking on the link should open &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5nb29nbGUuY29tLw==&#34;&gt;Google&lt;/span&gt; in a new tab or window.&lt;/p&gt;

@@ -182,7 +182,7 @@
         {
             "id": "http://example.com/2013/12/24/link-post/",
             "url": "http://example.com/2013/12/24/link-post/",
-            "title": "Link Post",
+            "title": "文章列表",
             "date_published": "2013-12-24T15:30:04.000Z",
             "content_html": "<p>This is a link post. Clicking on the link should open <span class=\"exturl\" data-url=\"aHR0cDovL3d3dy5nb29nbGUuY29tLw==\">Google</span> in a new tab or window.</p>\n",
             "tags": []
