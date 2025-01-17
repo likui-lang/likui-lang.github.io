@@ -10,9 +10,9 @@
     </author>
     <updated>2020-08-13T13:45:48.000Z</updated>
     <entry>
-        <id>http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/special/</id>
+        <id>http://example.com/computer-science/note/theme-shoka-doc/special/</id>
         <title>Step.4 主题特殊功能</title>
-        <link rel="alternate" href="http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/special/"/>
+        <link rel="alternate" href="http://example.com/computer-science/note/theme-shoka-doc/special/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;&lt;strong&gt;🦄特殊功能&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -507,9 +507,9 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <updated>2020-08-13T13:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/display/</id>
+        <id>http://example.com/computer-science/note/theme-shoka-doc/display/</id>
         <title>Step.3 界面显示</title>
-        <link rel="alternate" href="http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/display/"/>
+        <link rel="alternate" href="http://example.com/computer-science/note/theme-shoka-doc/display/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;&lt;strong&gt;🌈界面显示&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -661,9 +661,9 @@ c-16-25.333-24-45-24-59z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/spa
         <updated>2020-08-13T13:12:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/config/</id>
+        <id>http://example.com/computer-science/note/theme-shoka-doc/config/</id>
         <title>Step.2 基本配置</title>
-        <link rel="alternate" href="http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/config/"/>
+        <link rel="alternate" href="http://example.com/computer-science/note/theme-shoka-doc/config/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;&lt;strong&gt;📌基本配置&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -801,9 +801,9 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <updated>2020-08-13T12:56:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/dependents/</id>
+        <id>http://example.com/computer-science/note/theme-shoka-doc/dependents/</id>
         <title>Step.1 依赖插件</title>
-        <link rel="alternate" href="http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/dependents/"/>
+        <link rel="alternate" href="http://example.com/computer-science/note/theme-shoka-doc/dependents/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/computer-science/note/theme-shoka-doc/&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/dependents/&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/config/&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/display/&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/computer-science/note/theme-shoka-doc/special/&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -907,9 +907,9 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <updated>2020-08-13T12:46:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/</id>
+        <id>http://example.com/computer-science/note/theme-shoka-doc/</id>
         <title>Hexo主题Shoka &amp; multi-markdown-it渲染器使用说明</title>
-        <link rel="alternate" href="http://example.com/2020/08/13/computer-science/note/theme-shoka-doc/"/>
+        <link rel="alternate" href="http://example.com/computer-science/note/theme-shoka-doc/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;跳票 N 久终于更新的简单的使用说明&lt;/p&gt;
 &lt;ul&gt;
@@ -1034,9 +1034,9 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         <updated>2020-08-13T12:45:48.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/04/13/computer-science/java/course-1/week-2/</id>
+        <id>http://example.com/computer-science/java/course-1/week-2/</id>
         <title>第2周 判断</title>
-        <link rel="alternate" href="http://example.com/2020/04/13/computer-science/java/course-1/week-2/"/>
+        <link rel="alternate" href="http://example.com/computer-science/java/course-1/week-2/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br&gt;
  以下为个人学习笔记和习题整理&lt;br&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br&gt;
@@ -1214,9 +1214,9 @@ grape&lt;/p&gt;
         <updated>2020-04-13T11:12:45.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2020/04/12/computer-science/java/course-1/week-1/</id>
+        <id>http://example.com/computer-science/java/course-1/week-1/</id>
         <title>第1周 计算</title>
-        <link rel="alternate" href="http://example.com/2020/04/12/computer-science/java/course-1/week-1/"/>
+        <link rel="alternate" href="http://example.com/computer-science/java/course-1/week-1/"/>
         <content type="html">&lt;p&gt;:::note info&lt;br&gt;
  以下为个人学习笔记和习题整理&lt;br&gt;
 课程：零基础学 Java 语言 - 浙江大学 - 翁恺 @ 中国大学 MOOC&lt;br&gt;
@@ -1426,9 +1426,9 @@ grape&lt;/p&gt;
         <updated>2020-04-12T12:46:25.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2019/07/25/code-highlight/</id>
+        <id>http://example.com/code-highlight/</id>
         <title>Code Highlight Style test</title>
-        <link rel="alternate" href="http://example.com/2019/07/25/code-highlight/"/>
+        <link rel="alternate" href="http://example.com/code-highlight/"/>
         <content type="html">&lt;p&gt;Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oaWdobGlnaHRqcy5vcmc=&#34;&gt;https://highlightjs.org&lt;/span&gt;&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
@@ -1452,9 +1452,9 @@ grape&lt;/p&gt;
         <updated>2019-07-25T08:43:00.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2018/07/24/markdown/</id>
+        <id>http://example.com/markdown/</id>
         <title>Markdown Style test</title>
-        <link rel="alternate" href="http://example.com/2018/07/24/markdown/"/>
+        <link rel="alternate" href="http://example.com/markdown/"/>
         <content type="html">&lt;p&gt;This post is originated from &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vYXBhY2tlZXIvNDE1OTI2OA==&#34;&gt;here&lt;/span&gt; and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;hr&gt;
@@ -1681,10 +1681,15 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2018-07-24T15:31:06.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/26/images/</id>
+        <id>http://example.com/images/</id>
         <title>Images</title>
-        <link rel="alternate" href="http://example.com/2013/12/26/images/"/>
+        <link rel="alternate" href="http://example.com/images/"/>
         <content type="html">&lt;p&gt;This is a image test post.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-2572384.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-2311325.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-878514.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;small-picture&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#small-picture&#34;&gt;#&lt;/a&gt; &lt;img data-src=&#34;https://placehold.it/350x150.jpg&#34; alt=&#34;Small Picture&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;This is a image test post.&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-2572384.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-2311325.jpg&#34; alt=&#34;Caption&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;/assets/wallpaper-878514.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -1693,17 +1698,17 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2013-12-26T14:46:49.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/25/no-title/</id>
+        <id>http://example.com/no-title/</id>
         <title></title>
-        <link rel="alternate" href="http://example.com/2013/12/25/no-title/"/>
+        <link rel="alternate" href="http://example.com/no-title/"/>
         <content type="html">&lt;p&gt;This post doesn’t have a title. Make sure it’s accessible.&lt;/p&gt;
 </content>
         <updated>2013-12-25T14:57:49.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/25/excerpts/</id>
+        <id>http://example.com/excerpts/</id>
         <title>Excerpts</title>
-        <link rel="alternate" href="http://example.com/2013/12/25/excerpts/"/>
+        <link rel="alternate" href="http://example.com/excerpts/"/>
         <content type="html">&lt;p&gt;The following contents should be invisible in home/archive page.&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.&lt;/p&gt;
@@ -1712,9 +1717,9 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2013-12-24T16:23:23.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/25/gallery-post/</id>
+        <id>http://example.com/gallery-post/</id>
         <title>Gallery Post</title>
-        <link rel="alternate" href="http://example.com/2013/12/25/gallery-post/"/>
+        <link rel="alternate" href="http://example.com/gallery-post/"/>
         <content type="html">&lt;p&gt;This post contains 4 photos:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Widescreen wallpaper&lt;/li&gt;
@@ -1728,25 +1733,25 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2013-12-24T16:16:18.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/link-post-without-title/</id>
+        <id>http://example.com/link-post-without-title/</id>
         <title></title>
-        <link rel="alternate" href="http://example.com/2013/12/24/link-post-without-title/"/>
+        <link rel="alternate" href="http://example.com/link-post-without-title/"/>
         <content type="html">&lt;p&gt;This is a link post without a title. The title should be the link with or without protocol. Clicking on the link should open &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5nb29nbGUuY29tLw==&#34;&gt;Google&lt;/span&gt; in a new tab or window.&lt;/p&gt;
 </content>
         <updated>2013-12-24T15:44:13.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/long-title/</id>
+        <id>http://example.com/long-title/</id>
         <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</title>
-        <link rel="alternate" href="http://example.com/2013/12/24/long-title/"/>
+        <link rel="alternate" href="http://example.com/long-title/"/>
         <content type="html">&lt;p&gt;This post has a long title. Make sure the title displayed right.&lt;/p&gt;
 </content>
         <updated>2013-12-24T15:31:06.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/categories/</id>
+        <id>http://example.com/categories/</id>
         <title>Categories</title>
-        <link rel="alternate" href="http://example.com/2013/12/24/categories/"/>
+        <link rel="alternate" href="http://example.com/categories/"/>
         <content type="html">&lt;p&gt;This post contains 3 categories. Make sure your theme can display all of the categories.&lt;/p&gt;
 </content>
         <category term="Foo" scheme="http://example.com/categories/Foo/" />
@@ -1755,17 +1760,17 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2013-12-24T15:30:09.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/link-post/</id>
+        <id>http://example.com/link-post/</id>
         <title>文章列表</title>
-        <link rel="alternate" href="http://example.com/2013/12/24/link-post/"/>
+        <link rel="alternate" href="http://example.com/link-post/"/>
         <content type="html">&lt;p&gt;This is a link post. Clicking on the link should open &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5nb29nbGUuY29tLw==&#34;&gt;Google&lt;/span&gt; in a new tab or window.&lt;/p&gt;
 </content>
         <updated>2013-12-24T15:30:04.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/elements/</id>
+        <id>http://example.com/elements/</id>
         <title>Elements</title>
-        <link rel="alternate" href="http://example.com/2013/12/24/elements/"/>
+        <link rel="alternate" href="http://example.com/elements/"/>
         <content type="html">&lt;p&gt;The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don’t forget to redefine the style by yourself.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;heading-1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#heading-1&#34;&gt;#&lt;/a&gt; Heading 1&lt;/h1&gt;
@@ -1836,9 +1841,9 @@ alt=&#34;IMAGE ALT TEXT HERE&#34; width=&#34;240&#34; height=&#34;180&#34; borde
         <updated>2013-12-24T15:29:08.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2013/12/24/hello-world/</id>
+        <id>http://example.com/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/2013/12/24/hello-world/"/>
+        <link rel="alternate" href="http://example.com/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhv&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3plc3BpYS50dy9oZXhvL2RvY3M=&#34;&gt;documentation&lt;/span&gt; to learn how to use.&lt;/p&gt;
 </content>
         <updated>2013-12-24T09:49:32.000Z</updated>
