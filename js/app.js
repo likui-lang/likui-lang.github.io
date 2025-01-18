@@ -630,7 +630,8 @@ const mediaPlayer = function(t, config) {
     add: function(group, list) {
       var that = this
       list.forEach(function(item, i) {
-        item.group = group;
+        const defaultGroup = 'defaultGroupName'; // 您可以根据需要更改此默认值
+        item.group = (typeof group !== 'undefined' && group !== null && group !== '') ? group : defaultGroup;
         item.name = item.name || item.title || 'Meida name';
         item.artist = item.artist || item.author || 'Anonymous';
         item.cover = item.cover || item.pic;
