@@ -2226,12 +2226,6 @@ main >.inner {
 .social .item.github i {
   color: #191717;
 }
-.social .item.google::before {
-  background-color: oogl;
-}
-.social .item.google i {
-  color: oogl;
-}
 .social .item.twitter::before {
   background-color: #00aff0;
 }
