@@ -1166,7 +1166,7 @@ const changeTheme = function(type) {
     btn.removeClass('i-sun')
     btn.addClass('i-moon')
   } else {
-    HTML.attr('data-theme', null);
+    HTML.attr('data-theme', 'skyblue');
     btn.removeClass('i-moon');
     btn.addClass('i-sun');
   }
