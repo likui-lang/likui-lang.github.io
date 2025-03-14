@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"http://example.com","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":{"appID":"LEQYT4DR83","apiKey":"1ad78fe5e34e300d78bdddc8367319f8","indexName":"kui-spark","hits":{"per_page":10}},"valine":{"appId":"fmDBjFHURY9tXm59nMpCwrpK-gzGzoHsz","appKey":"N7WauxrP5I152ynTTf7tTgOG","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"en","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"audio":[{"title":"列表1","list":["https://music.163.com/#/playlist?id=2943811283","https://music.163.com/#/playlist?id=2297706586"]},{"title":"列表2","list":["https://music.163.com/#/playlist?id=2031842656"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"http://example.com","root":"/","statics":"//gcore.jsdelivr.net/gh/likui-lang/likui-lang.github.io@latest/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":true},"search":{"appID":"LEQYT4DR83","apiKey":"1ad78fe5e34e300d78bdddc8367319f8","indexName":"kui-spark","hits":{"per_page":10}},"valine":{"appId":"fmDBjFHURY9tXm59nMpCwrpK-gzGzoHsz","appKey":"N7WauxrP5I152ynTTf7tTgOG","placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"en","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"audio":[{"title":"列表1","list":["https://music.163.com/#/playlist?id=2943811283","https://music.163.com/#/playlist?id=2297706586"]},{"title":"列表2","list":["https://music.163.com/#/playlist?id=2031842656"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -26,7 +26,7 @@ const getScript = function(url, callback, condition) {
 const assetUrl = function(asset, type) {
   var str = CONFIG[asset][type]
   if(str.indexOf('npm')>-1||str.indexOf('gh')>-1||str.indexOf('combine')>-1)
-    return "//cdn.jsdelivr.net/" + str
+    return "//gcore.jsdelivr.net/" + str
 
   if(str.indexOf('http')>-1)
     return str
@@ -2334,7 +2334,162 @@ const siteInit = function () {
 window.addEventListener('DOMContentLoaded', siteInit);
 
 console.log('%c Theme.Shoka v' + CONFIG.version + ' %c https://shoka.lostyu.me/ ', 'color: white; background: #e9546b; padding:5px 0;', 'padding:4px;border:1px solid #e9546b;')
-var canvasEl = document.createElement('canvas');
+const express = require('express');
+const bodyParser = require('body-parser');
+const https = require('https');
+
+const app = express();
+
+// 如果用于生产环境，建议通过 CORS 限制仅允许你的域名访问
+const cors = require('cors');
+const corsOptions = {
+ origin: 'https://aliyun.com' // 允许访问的域名
+};
+app.use(cors(corsOptions));
+
+// 如果需要限制访问来源 IP，可以使用 express-ipfilter 等 express 组件：https://www.npmjs.com/package/express-ipfilter
+// const ipFilter = require('express-ipfilter').IpFilter
+// let ipList = []; // 允许或禁止的IP列表
+// app.use(ipFilter(ipList, {
+//   mode: 'allow', // allow or deny
+//   trustProxy: true
+// }));
+
+app.use(express.static(__dirname + `${process.env.STATIC_DIR}`));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.raw());
+
+const port = process.env.PORT || 9000;
+
+app.post('/chat', (req, res) => {
+  // 从req.body中取得prompt内容
+  const prompt = req.body.prompt;
+  const sessionId = req.body.sessionId || null;
+
+  const postData = JSON.stringify({
+    input: {
+      prompt: prompt,
+      session_id: sessionId
+    },
+    parameters: {
+      incremental_output: true
+    },
+    debug: {}
+  });
+
+  const options = {
+    hostname: 'dashscope.aliyuncs.com',
+    path: `/api/v1/apps/${process.env.BAILIAN_APP_ID}/completion`,
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${process.env.BAILIAN_API_KEY}`,
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(postData),
+      'X-DashScope-SSE': 'enable'
+    },
+  };
+
+  const externalReq = https.request(options, (externalRes) => {
+    externalRes.setEncoding('utf8');
+
+    externalRes.on('data', (chunk) => {
+      console.log(chunk);
+      res.write(chunk);
+    });
+
+    externalRes.on('end', () => {
+      // 当接收完外部API的响应后，将结果返回给客户端
+      res.end()
+    });
+
+    res.on('close', () => {
+      // Perform cleanup actions here if needed
+      externalRes.socket.end();
+    });
+  });
+
+  externalReq.on('error', (error) => {
+    console.error(error);
+    res.status(500).send("出错了");
+  });
+
+  // 发送请求到外部API
+  externalReq.write(postData);
+  externalReq.end();
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+hexo.extend.injector.register('body_end',`
+    <link rel="stylesheet" crossorigin href="https://g.alicdn.com/aliyun-documentation/web-chatbot-ui/0.0.24/index.css" />
+    <script type="module" crossorigin src="https://g.alicdn.com/aliyun-documentation/web-chatbot-ui/0.0.24/index.js"></script>
+    <script>
+      window.CHATBOT_CONFIG = {
+        endpoint: "https://webchat-bot-gcw-hgumijteoy.cn-hangzhou.fcapp.run/chat", // 可以替换为 https://{your-fc-http-trigger-domain}/chat
+        displayByDefault: false, // 默认不显示 AI 助手对话框
+        title: 'Kui Cub 博客AI助手', // 自定义 AI 助手标题
+        draggable: true, // 是否开启拖拽
+        aiChatOptions: { // 自定义取值参考：https://docs.nlkit.com/nlux/reference/ui/ai-chat#conversation-options
+          conversationOptions: { // 自定义取值参考：https://docs.nlkit.com/nlux/reference/ui/ai-chat#conversation-options
+            conversationStarters: [
+              {prompt: '什么是博客？'},
+              {prompt: '有没有免费的 AI 图片生成工具，适合博客配图？'},
+              {prompt: '我对计算机科学比较感兴趣？能详细解读或推荐相关文章吗？'},
+            ]
+          },
+          displayOptions: { // 自定义取值参考：https://docs.nlkit.com/nlux/reference/ui/ai-chat#display-options
+            height: 600,
+            // width: 400,
+          },
+          personaOptions: { // 自定义取值参考：https://docs.nlkit.com/nlux/reference/ui/ai-chat#chat-personas
+            assistant: {
+              name: '你好，我是你的 Kui Cub 博客AI助手',
+              // AI 助手的图标
+              avatar: './assets/image.png',
+              tagline: '您可以尝试点击下方的快捷入口开启体验！',
+            }
+          },
+          messageOptions: { // 自定义取值参考：https://docs.nlkit.com/nlux/reference/ui/ai-chat#message-options
+            waitTimeBeforeStreamCompletion: 'never'
+          }
+        },
+        dataProcessor: {
+          /**
+          * 在向后端大模型应用发起请求前改写 Prompt。
+          * 比如可以用于总结网页场景，在发送前将网页内容包含在内，同时避免在前端显示这些内容。
+          * @param {string} prompt - 用户输入的 Prompt
+          * @param {string}  - 改写后的 Prompt
+          */
+          rewritePrompt(prompt) {
+            return prompt;
+          }
+        }
+      };
+    </script> 
+       <style>
+      :root {
+        /* webchat 工具栏的颜色 */
+        --webchat-toolbar-background-color: #1464E4;
+        /* webchat 工具栏文字和按钮的颜色 */
+        --webchat-toolbar-text-color: #FFF;
+      }
+      /* webchat 对话框如果被遮挡，可以尝试通过 z-index、bottom、right 等设置 来调整*/
+      .webchat-container {
+        z-index: 100;
+        bottom: 10px;
+        right: 10px;
+      }
+      /* webchat 的唤起按钮如果被遮挡，可以尝试通过 z-index、bottom、right 等设置 来调整。也可以通过 CSS 进一步定制唤起按钮的形状、大小等。 */
+      .webchat-bubble-tip {
+        z-index: 99;
+        bottom: 20px;
+        right: 20px;
+      }
+    </style>
+    `
+    );var canvasEl = document.createElement('canvas');
 canvasEl.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:9999999';
 document.body.appendChild(canvasEl);
 
